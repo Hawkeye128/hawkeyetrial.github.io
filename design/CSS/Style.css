@@ -1,0 +1,104 @@
+@charset "UTF-8";
+body {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+#logo {
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+#LeftSec h1 {
+	color: rgba(249,242,242,1.00);
+	font-family: alfa-slab-one;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 2rem;
+	text-shadow: 3px 3px 5px rgba(1,1,1,1.00);
+}#rightSec h2 {
+	color: rgba(0,0,0,1.00);
+	font-family: alfa-slab-one;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.5rem;
+	text-align: center;
+}
+#rightSec p {
+	font-family: actor;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 10pt;
+	text-align: left;
+	color: rgba(0,0,0,1.00);
+	text-decoration: none;
+	line-height: 140%;
+}
+label, input, textarea{
+	width:100%;
+}
+#LeftSec {
+	width: 28%;
+	margin: 0 1.5% 30px 3%;
+	padding-left: 2%;
+	padding-right: 2%;
+	float: left;
+	text-align: center;
+}
+#rightSec {
+	width: 55%;
+	margin: 0 3% 100px 1.5%;
+	padding: 40px 2%;
+	float: right;
+	background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(255,255,255,0.60) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(255,255,255,0.60) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(255,255,255,0.60) 100%);
+	background-image: linear-gradient(180deg,rgba(255,255,255,1.00) 0%,rgba(255,255,255,0.60) 100%);
+	border-top-right-radius: 40px;
+}
+footer {
+	position: fixed;
+	clear: both;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	color: rgba(0,0,0,1.00);
+	font-family: actor;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 10pt;
+	text-align: center;
+	background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(255,255,255,1.00) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(255,255,255,1.00) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(255,255,255,1.00) 100%);
+	background-image: linear-gradient(180deg,rgba(255,255,255,0.00) 0%,rgba(255,255,255,1.00) 100%);
+	padding-top: 15px;
+}
+.navbar-light .navbar-brand {
+	color: rgba(19,119,132,1.00);
+}
+.navbar-light .navbar-brand:hover {
+	color: rgba(19,119,132,0.80);
+}
+#video {
+	margin-bottom: 50px;
+}
+@media (max-width:650px){
+body {
+	background-image: none;
+}
+#LeftSec {
+	width: 90%;
+	margin-left: 3%;
+	margin-right: 3%;
+	padding-left: 2%;
+	padding-right: 2%;
+}	
+#rightSec {
+	width: 90%;
+	margin-left: 3%;
+	margin-right: 3%;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+}
